@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2024/10/23 17:37:35.261,=C:\Users\grgab\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/23 17:40:09.997,D:\Development\Repositories\WK_TECHNOLOGY\src\View\CadPedidoVenda.View.Principal.pas=C:\Users\grgab\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/10/23 17:40:09.997,D:\Development\Repositories\WK_TECHNOLOGY\src\View\CadPedidoVenda.View.Principal.dfm=C:\Users\grgab\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2024/10/23 17:41:15.735,D:\Development\Repositories\WK_TECHNOLOGY\src\View\WKTECHNOLOGY.dproj=C:\Users\grgab\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2024/10/23 17:41:50.134,=D:\Development\Repositories\WK_TECHNOLOGY\src\View\Unit1.pas</Transaction>
+    <Transaction>2024/10/23 18:07:59.902,D:\Development\Repositories\WK_TECHNOLOGY\src\model\entity\wktechnology.model.entity.interfaces.pas=D:\Development\Repositories\WK_TECHNOLOGY\src\View\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

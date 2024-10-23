@@ -1,0 +1,14 @@
+program WKTECHNOLOGY;
+
+uses
+  Vcl.Forms,
+  CadPedidoVenda.View.Principal in 'CadPedidoVenda.View.Principal.pas' {WK_TECHNOLOGY};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TWK_TECHNOLOGY, WK_TECHNOLOGY);
+  Application.Run;
+end.
