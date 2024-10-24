@@ -1,0 +1,69 @@
+unit wktechnology.model.entity.implemen.PedidoGeral;
+
+interface
+
+uses
+  wktechnology.model.entity.interfaces;
+type
+TPedidoGeral = class(TInterfacedObject, iPedidoGeral)
+
+  private
+  public
+  class function New: iPedidoGeral;
+  function SetNumeroPedido(value:Integer):iPedidoGeral;
+  function GetNumeroPedido:Integer;
+  function SetDataEmissao(value:TdateTime):iPedidoGeral;
+  function GetDataEmissao:TdateTime;
+  function SetCodigoCliente(value:Integer):iPedidoGeral;
+  function GetCodigoCliente:Integer;
+  function SetValorTotal(value:Currency):iPedidoGeral;
+  function GetValorTotal:Currency;
+  end;
+implementation
+
+function TPedidoGeral.GetCodigoCliente: Integer;
+begin
+
+end;
+
+function TPedidoGeral.GetDataEmissao: TdateTime;
+begin
+
+end;
+
+function TPedidoGeral.GetNumeroPedido: Integer;
+begin
+
+end;
+
+function TPedidoGeral.GetValorTotal: Currency;
+begin
+
+end;
+
+class function TPedidoGeral.New: iPedidoGeral;
+begin
+
+end;
+
+function TPedidoGeral.SetCodigoCliente(value: Integer): iPedidoGeral;
+begin
+
+end;
+
+function TPedidoGeral.SetDataEmissao(value: TdateTime): iPedidoGeral;
+begin
+
+end;
+
+function TPedidoGeral.SetNumeroPedido(value: Integer): iPedidoGeral;
+begin
+
+end;
+
+function TPedidoGeral.SetValorTotal(value: Currency): iPedidoGeral;
+begin
+
+end;
+
+end.

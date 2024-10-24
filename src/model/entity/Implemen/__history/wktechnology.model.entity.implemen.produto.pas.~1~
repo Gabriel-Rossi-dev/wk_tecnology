@@ -1,0 +1,59 @@
+unit wktechnology.model.entity.implemen.produto;
+
+interface
+
+uses
+  wktechnology.model.entity.interfaces;
+
+type
+  TProduto = class(TInterfacedObject, iProduto)
+  private
+
+  public
+    class function New: TProduto;
+    function SetCodigo(value:Integer): iProduto;
+    function GetCodigo:Integer;
+    function SetDescricao(value:String): iProduto;
+    function GetDescricao:String;
+    function SetPrecoVenda(value:Currency): iProduto;
+    function GetPrecoVenda:Currency;
+
+  end;
+
+implementation
+
+function TProduto.GetCodigo: Integer;
+begin
+
+end;
+
+function TProduto.GetDescricao: String;
+begin
+
+end;
+
+function TProduto.GetPrecoVenda: Currency;
+begin
+
+end;
+
+class function TProduto.New: iProduto;
+begin
+  Result := Self.Create;
+end;
+function TProduto.SetCodigo(value: Integer): iProduto;
+begin
+
+end;
+
+function TProduto.SetDescricao(value: String): iProduto;
+begin
+
+end;
+
+function TProduto.SetPrecoVenda(value: Currency): iProduto;
+begin
+
+end;
+
+end.
