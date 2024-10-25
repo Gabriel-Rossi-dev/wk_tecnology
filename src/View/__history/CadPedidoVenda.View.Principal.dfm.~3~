@@ -1,0 +1,43 @@
+object WK_TECHNOLOGY: TWK_TECHNOLOGY
+  Left = 0
+  Top = 0
+  Caption = 'WK_TECHNOLOGY'
+  ClientHeight = 696
+  ClientWidth = 1094
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object pnlPrincipal: TPanel
+    Left = 0
+    Top = 0
+    Width = 1094
+    Height = 696
+    Align = alClient
+    TabOrder = 0
+    ExplicitLeft = -8
+    ExplicitTop = 224
+    object pnlHeader: TPanel
+      Left = 1
+      Top = 1
+      Width = 1092
+      Height = 64
+      Align = alTop
+      Alignment = taLeftJustify
+      TabOrder = 0
+      object Label1: TLabel
+        Left = 1
+        Top = 1
+        Width = 152
+        Height = 62
+        Align = alLeft
+        Alignment = taCenter
+        Caption = 'Numero do Pedido'
+        Layout = tlCenter
+      end
+    end
+  end
+end
