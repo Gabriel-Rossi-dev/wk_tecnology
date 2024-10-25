@@ -91,9 +91,9 @@ begin
     with Conexao do
     begin
       Close;
-      Params.DriverId := 'MySQL';
-      Params.Username := 'root';
-      Params.Password := 'prod';
+      Params.DriverId := 'My';
+      Params.Username := 'SYSDBA';
+      Params.Password := 'masterkey';
       Params.Database := CaminhoBd;
 
       if Connected = false then
